@@ -10,7 +10,7 @@ public class CompentScan {
 	
 	public void scan(String packageName){
 	  String parent=	System.getProperty("user.dir");
-	  parent=parent+"/src";
+	  parent=parent+"/src/main/java";
 	  System.out.println(parent);
 	  String child=packageName.replaceAll("\\.", "/");
 		File f=new File(parent ,child);
