@@ -1,6 +1,6 @@
 # ioc-framework
 simpler  ioc  framework
-jdk版本 请使用1.7+ 如果maven 工程导入之后有错误提示，请确认 complie的 jdk版本
+jdk版本 请使用1.7+ 如果maven 工程导入之后有错误提示，请确认 complie的 jdk版本，默认是1.8，可以修改pom文件改成1.7
 # test
 com.chenxun.framework.example.test.Test 类启动main方法
 #测试结果
