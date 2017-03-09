@@ -4,7 +4,7 @@ import com.chenxun.framework.ioc.Autowired;
 import com.chenxun.framework.ioc.Compent;
 
 @Compent("student")
-public class Student {
+public class Student implements TestAspect{
 	
 	
 	private Person person;
@@ -18,6 +18,12 @@ public class Student {
 	}
 
 	public void test(){
+		person.test();
+		System.out.println("Student ----");
+		
+	}
+	
+	public void testAspect(){
 		person.test();
 		System.out.println("Student ----");
 		
